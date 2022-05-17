@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600&display=swap');
+
+:root {
+  --pri-clr: #880062;
+  --shadow-clr: #5c0243;
+  --white-clr: #fff;
+  --box-shadow: 7.5px 7.5px 0px var(--shadow-clr);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: var(--pri-clr);
+  padding: 1rem 0;
+  box-shadow: var(--box-shadow);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.nav {
+  display: flex;
+  gap: 0.5rem;
+  align-items: flex-end;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  flex: 1;
+  border-bottom: 3px solid var(--white-clr);
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding: 0.25rem;
+}
+
+input:focus-visible {
+  outline: none;
+}
+
+input[type='text']::placeholder {
+  text-align: right; /* for Chrome, Firefox, Opera */
+}
+:-ms-input-placeholder {
+  text-align: right; /* for IE 10-11 */
+}
+::-webkit-input-placeholder {
+  text-align: right; /* for IE Edge */
+}
+
+.search-icon {
+  max-width: 2rem;
+}
+
+.menu-icon {
+  padding: 1rem;
+  background-color: var(--pri-clr);
+
+  position: absolute;
+  top: 4.5rem;
+  right: 0px;
+
+  box-shadow: var(--box-shadow);
+}
+
+/* main */
+main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('./images/film-terminology.jpeg');
+
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  height: 100vh;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  gap: 8rem;
+}
+
+.btn {
+  padding: 1.5rem 2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  background-color: var(--pri-clr);
+  border-radius: 1.25rem;
+  text-decoration: none;
+  color: var(--white-clr);
+  box-shadow: var(--box-shadow);
+}
