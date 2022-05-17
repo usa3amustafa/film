@@ -73,7 +73,7 @@ input[type='text']::placeholder {
   background-color: var(--pri-clr);
 
   position: absolute;
-  top: 4.5rem;
+  top: 4.65rem;
   right: 0px;
 
   box-shadow: var(--box-shadow);
@@ -87,7 +87,7 @@ main {
   background-size: cover;
   background-repeat: no-repeat;
 
-  height: calc(100vh - 46px);
+  height: calc(100vh - 20px);
 }
 
 .main {
