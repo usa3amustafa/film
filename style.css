@@ -97,16 +97,17 @@ main {
   align-items: center;
 
   height: 100vh;
-  gap: 8rem;
+  gap: 15vh;
 }
 
 .btn {
   padding: 1.5rem 2rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 600;
   background-color: var(--pri-clr);
   border-radius: 1.25rem;
   text-decoration: none;
   color: var(--white-clr);
   box-shadow: var(--box-shadow);
+  text-align: center;
 }
