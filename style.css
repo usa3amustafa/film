@@ -96,7 +96,7 @@ main {
   background-size: cover;
   background-repeat: no-repeat;
 
-  height: calc(100vh - 67px);
+  height: 100vh;
   margin-top: 67px;
 }
 
