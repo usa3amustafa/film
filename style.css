@@ -25,12 +25,13 @@ img {
 
 nav {
   background-color: var(--pri-clr);
-  padding: 1rem 0;
   box-shadow: var(--box-shadow);
+  padding: 1rem 0;
+  position: relative;
+  width: 100%;
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
   z-index: 10;
 }
 
@@ -68,6 +69,14 @@ input[type='text']::placeholder {
   max-width: 2rem;
 }
 
+.sticky {
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+  top: 15px;
+}
+
 .menu-icon {
   padding: 1rem;
   background-color: var(--pri-clr);
@@ -87,7 +96,8 @@ main {
   background-size: cover;
   background-repeat: no-repeat;
 
-  height: calc(100vh - 20px);
+  height: calc(100vh - 67px);
+  margin-top: 67px;
 }
 
 .main {
