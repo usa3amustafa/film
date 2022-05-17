@@ -97,20 +97,22 @@ input[type='text']::placeholder {
   padding-top: 0.75rem 0;
 }
 
+.menu-btn {
+  background-color: none;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -15px;
+}
+
 .show-links {
-  height: 760px;
+  height: 740px;
   padding-bottom: 1rem;
 }
 
 .menu-icon-top {
   position: absolute;
   bottom: -79px;
-  right: 5px;
-}
-.menu-icon-bottom {
-  position: absolute;
-  bottom: -40px;
-  right: 5px;
+  right: 0px;
 }
 
 .show-btn {
